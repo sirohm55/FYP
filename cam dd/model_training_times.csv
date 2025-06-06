@@ -1,9 +1,0 @@
-Camera,Lane,Model,Duration_Seconds,Best_Params
-ccc2617079dd,Lane_0_TotalWeighted,Random Forest,38.51,n_estimators=369; max_depth=13; min_samples_split=7; min_samples_leaf=1
-ccc2617079dd,Lane_0_TotalWeighted,XGBoost,8.67,n_estimators=403; max_depth=7; learning_rate=0.012600238020523192
-ccc2617079dd,Lane_0_TotalWeighted,LightGBM,186.47,n_estimators=174; max_depth=13; learning_rate=0.10497568328748141
-ccc2617079dd,Lane_0_TotalWeighted,CatBoost,9.17,iterations=292; depth=7; learning_rate=0.1067390776999388
-ccc2617079dd,Lane_1_TotalWeighted,Random Forest,36.76,n_estimators=479; max_depth=17; min_samples_split=6; min_samples_leaf=1
-ccc2617079dd,Lane_1_TotalWeighted,XGBoost,9.08,n_estimators=115; max_depth=11; learning_rate=0.0391835762372317
-ccc2617079dd,Lane_1_TotalWeighted,LightGBM,6.83,n_estimators=240; max_depth=13; learning_rate=0.04403700169642669
-ccc2617079dd,Lane_1_TotalWeighted,CatBoost,10.41,iterations=317; depth=6; learning_rate=0.1622689578787843
