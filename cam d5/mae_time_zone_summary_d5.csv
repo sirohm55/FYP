@@ -1,0 +1,41 @@
+Camera,Lane,Model,TimeZone,Train_Weekday,Train_Weekend,Test_Weekday,Test_Weekend
+ccc2617079d5,Lane_2_TotalWeighted,Random Forest,10AM-3PM,16.41,20.01,17.41,30.51
+ccc2617079d5,Lane_2_TotalWeighted,XGBoost,10AM-3PM,12.38,18.72,19.71,31.06
+ccc2617079d5,Lane_2_TotalWeighted,LightGBM,10AM-3PM,14.13,19.43,17.44,32.63
+ccc2617079d5,Lane_2_TotalWeighted,CatBoost,10AM-3PM,15.58,20.05,18.02,30.06
+ccc2617079d5,Lane_3_TotalWeighted,Random Forest,10AM-3PM,14.38,24.04,16.33,35.11
+ccc2617079d5,Lane_3_TotalWeighted,XGBoost,10AM-3PM,19.65,26.10,18.84,30.90
+ccc2617079d5,Lane_3_TotalWeighted,LightGBM,10AM-3PM,15.66,24.91,16.04,36.40
+ccc2617079d5,Lane_3_TotalWeighted,CatBoost,10AM-3PM,21.59,26.52,23.31,27.39
+ccc2617079d5,Lane_2_TotalWeighted,Random Forest,12AM-5AM,0.74,3.23,0.80,2.30
+ccc2617079d5,Lane_2_TotalWeighted,XGBoost,12AM-5AM,1.45,3.49,1.41,2.75
+ccc2617079d5,Lane_2_TotalWeighted,LightGBM,12AM-5AM,1.21,3.58,1.74,2.64
+ccc2617079d5,Lane_2_TotalWeighted,CatBoost,12AM-5AM,1.73,3.89,2.49,3.40
+ccc2617079d5,Lane_3_TotalWeighted,Random Forest,12AM-5AM,1.09,5.59,1.07,4.25
+ccc2617079d5,Lane_3_TotalWeighted,XGBoost,12AM-5AM,1.85,7.06,1.19,4.56
+ccc2617079d5,Lane_3_TotalWeighted,LightGBM,12AM-5AM,1.84,6.74,1.47,4.36
+ccc2617079d5,Lane_3_TotalWeighted,CatBoost,12AM-5AM,2.68,8.59,2.66,4.76
+ccc2617079d5,Lane_2_TotalWeighted,Random Forest,4PM-6PM,19.50,33.93,16.15,25.43
+ccc2617079d5,Lane_2_TotalWeighted,XGBoost,4PM-6PM,12.33,30.75,20.46,31.42
+ccc2617079d5,Lane_2_TotalWeighted,LightGBM,4PM-6PM,13.91,31.97,16.98,29.90
+ccc2617079d5,Lane_2_TotalWeighted,CatBoost,4PM-6PM,15.90,33.68,17.13,21.16
+ccc2617079d5,Lane_3_TotalWeighted,Random Forest,4PM-6PM,16.50,41.42,29.32,26.34
+ccc2617079d5,Lane_3_TotalWeighted,XGBoost,4PM-6PM,23.23,46.91,20.89,24.77
+ccc2617079d5,Lane_3_TotalWeighted,LightGBM,4PM-6PM,17.77,42.05,18.08,21.85
+ccc2617079d5,Lane_3_TotalWeighted,CatBoost,4PM-6PM,24.37,49.86,20.60,25.32
+ccc2617079d5,Lane_2_TotalWeighted,Random Forest,6AM-9AM,19.91,23.06,28.40,33.83
+ccc2617079d5,Lane_2_TotalWeighted,XGBoost,6AM-9AM,17.11,19.85,34.69,32.04
+ccc2617079d5,Lane_2_TotalWeighted,LightGBM,6AM-9AM,18.72,21.54,32.56,31.11
+ccc2617079d5,Lane_2_TotalWeighted,CatBoost,6AM-9AM,19.45,21.84,31.24,33.81
+ccc2617079d5,Lane_3_TotalWeighted,Random Forest,6AM-9AM,20.89,30.08,27.62,41.85
+ccc2617079d5,Lane_3_TotalWeighted,XGBoost,6AM-9AM,23.50,32.98,31.44,41.63
+ccc2617079d5,Lane_3_TotalWeighted,LightGBM,6AM-9AM,22.56,30.44,31.04,41.48
+ccc2617079d5,Lane_3_TotalWeighted,CatBoost,6AM-9AM,29.34,34.86,41.17,42.83
+ccc2617079d5,Lane_2_TotalWeighted,Random Forest,7PM-11PM,12.22,20.03,16.15,12.32
+ccc2617079d5,Lane_2_TotalWeighted,XGBoost,7PM-11PM,10.34,17.73,13.16,15.59
+ccc2617079d5,Lane_2_TotalWeighted,LightGBM,7PM-11PM,11.18,18.59,14.02,17.04
+ccc2617079d5,Lane_2_TotalWeighted,CatBoost,7PM-11PM,11.88,18.74,12.99,17.09
+ccc2617079d5,Lane_3_TotalWeighted,Random Forest,7PM-11PM,15.37,29.35,20.36,19.31
+ccc2617079d5,Lane_3_TotalWeighted,XGBoost,7PM-11PM,18.93,32.41,19.96,21.89
+ccc2617079d5,Lane_3_TotalWeighted,LightGBM,7PM-11PM,16.42,30.86,18.08,26.29
+ccc2617079d5,Lane_3_TotalWeighted,CatBoost,7PM-11PM,21.23,33.91,20.33,20.77
