@@ -117,10 +117,10 @@ ts_cv = TimeSeriesSplit(n_splits=3)
 optimization = 'Optuna'
 model_timings = []
 
-print("📌 Rows marked as public holiday:")
+print("Rows marked as public holiday:")
 print(df[df['is_holiday'] == 1][['date', 'Camera', 'is_holiday']].drop_duplicates().head())
 
-print("\n📌 Rows marked as school holiday:")
+print("\nRows marked as school holiday:")
 print(df[df['school_holiday'] == 1][['date', 'Camera', 'school_holiday']].drop_duplicates().head())
 
 # Initialize this list once at the start of your script
@@ -244,7 +244,7 @@ for camera_id, cam_df in agg_df.groupby('Camera'):
             loss_plot_path = f"optuna_loss/{optimization}/{model_name}/{camera_id}_{lane_col}_loss.html".replace(" ", "_")
             os.makedirs(os.path.dirname(loss_plot_path), exist_ok=True)
             fig_loss.write_html(loss_plot_path)
-            print(f"📉 Saved Optuna loss plot to: {loss_plot_path}")
+            print(f"Saved Optuna loss plot to: {loss_plot_path}")
 
             # === Get best model and fit it
             best_model = model_class(**study.best_params)
@@ -258,7 +258,7 @@ for camera_id, cam_df in agg_df.groupby('Camera'):
             model_end_time = time.time()
             model_duration = round(model_end_time - model_start_time, 2)
 
-            print(f"🕒 {model_name} | {camera_id} | {lane_col} — Training time: {model_duration:.2f} seconds")
+            print(f"{model_name} | {camera_id} | {lane_col} — Training time: {model_duration:.2f} seconds")
 
             # Log timing
             model_timings.append({
@@ -565,7 +565,7 @@ for camera_id, cam_df in agg_df.groupby('Camera'):
     # === Export modeling time logs ===
     timing_df = pd.DataFrame(model_timings)
     timing_df.to_csv("model_training_times.csv", index=False)
-    print("🗂️ Modeling times saved to: model_training_times.csv")
+    print("Modeling times saved to: model_training_times.csv")
 
     # Convert to DataFrame
     mae_summary_df = pd.DataFrame(all_mae_rows)
@@ -575,7 +575,7 @@ for camera_id, cam_df in agg_df.groupby('Camera'):
 
     # Optional: print in the format you showed (by TimeZone)
     for tz in mae_summary_df['TimeZone'].unique():
-        print(f"\n📊 MAE for {tz}")
+        print(f"\nMAE for {tz}")
         display_df = mae_summary_df[mae_summary_df['TimeZone'] == tz].copy()
         display_df = display_df[['Model', 'Train_Weekday', 'Train_Weekend', 'Test_Weekday', 'Test_Weekend']]
         display_df = display_df.round(2)
